@@ -1,11 +1,14 @@
 {
-  "name": "react-scroll-section",
-  "version": "3.0.2",
+  "name": "@ohoareau/react-scroll-section",
+  "version": "3.0.2-1",
   "description": "React library to provide a declarative scroll to between sections",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "start": "nwb serve-react-demo",
     "clean": "nwb clean-module && nwb clean-demo",
