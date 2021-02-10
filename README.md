@@ -1,3 +1,8 @@
+This is a fork from the original package from https://www.npmjs.com/package/react-scroll-section
+No changes made apart publication on NPM with lastest master version fixing SSG/SSR problem with REFS in ScrollingProvider.
+This package here will be abandonned when the upstream package will be published.
+Thank you Ema Suriano (https://www.npmjs.com/~emasuriano) for your (original) work.
+
 # react-scroll-section
 
 [![Build Status](https://travis-ci.com/EmaSuriano/react-scroll-section.svg?branch=master)](https://travis-ci.com/EmaSuriano/react-scroll-section)
