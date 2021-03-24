@@ -1,6 +1,6 @@
 {
   "name": "@ohoareau/react-scroll-section",
-  "version": "3.0.2-2",
+  "version": "3.0.2-3",
   "description": "React library to provide a declarative scroll to between sections",
   "main": "lib/index.js",
   "files": [
