@@ -31,10 +31,10 @@ const ScrollingProvider = ({
   const [selected, setSelected] = useState('');
 
   useEffect(() => {
-    document.addEventListener('scroll', debounceScroll, true);
+    document.addEventListener('scroll', debounceScroll, {capture: true, passive: true, once: false});
     handleScroll();
     return () => {
-      document.removeEventListener('scroll', debounceScroll, true);
+      document.removeEventListener('scroll', debounceScroll, {capture: true});
     };
   }, []);
 
@@ -45,7 +45,7 @@ const ScrollingProvider = ({
           id: id,
           differenceFromTop: 0
         }
-        
+
         const { top } = REFS[id].current.getBoundingClientRect();
         const differenceFromTop = Math.abs(top);
 
